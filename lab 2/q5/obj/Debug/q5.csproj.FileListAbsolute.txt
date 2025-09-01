@@ -1,0 +1,7 @@
+D:\DOT_net_lab\Lab2\q5\bin\Debug\q5.exe.config
+D:\DOT_net_lab\Lab2\q5\bin\Debug\q5.exe
+D:\DOT_net_lab\Lab2\q5\bin\Debug\q5.pdb
+D:\DOT_net_lab\Lab2\q5\obj\Debug\q5.csproj.AssemblyReference.cache
+D:\DOT_net_lab\Lab2\q5\obj\Debug\q5.csproj.CoreCompileInputs.cache
+D:\DOT_net_lab\Lab2\q5\obj\Debug\q5.exe
+D:\DOT_net_lab\Lab2\q5\obj\Debug\q5.pdb

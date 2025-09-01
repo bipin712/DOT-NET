@@ -1,0 +1,7 @@
+D:\DOT_net_lab\Lab2\q3\bin\Debug\q3.exe.config
+D:\DOT_net_lab\Lab2\q3\bin\Debug\q3.exe
+D:\DOT_net_lab\Lab2\q3\bin\Debug\q3.pdb
+D:\DOT_net_lab\Lab2\q3\obj\Debug\q3.csproj.AssemblyReference.cache
+D:\DOT_net_lab\Lab2\q3\obj\Debug\q3.csproj.CoreCompileInputs.cache
+D:\DOT_net_lab\Lab2\q3\obj\Debug\q3.exe
+D:\DOT_net_lab\Lab2\q3\obj\Debug\q3.pdb
