@@ -1,0 +1,31 @@
+//THis code should be written in visual studion 2022 and after run it show the output 
+
+
+using System;
+using System.Data.SqlClient;
+
+class ConnectedDemo
+{
+    static void Main()
+    {
+        // Change YOUR_SERVER_NAME if different
+        string connStr = @"Server=(localdb)\MSSQLLocalDB;Database=LabDB;Trusted_Connection=True;";
+        SqlConnection conn = new SqlConnection(connStr);
+
+        SqlCommand cmd = new SqlCommand("SELECT * FROM Students", conn);
+
+        conn.Open(); // open the connection (connected mode)
+        SqlDataReader reader = cmd.ExecuteReader();
+
+        Console.WriteLine("Connected Architecture:");
+        Console.WriteLine("-----------------------");
+
+        while (reader.Read())
+        {
+            Console.WriteLine($"{reader["Id"]} - {reader["Name"]} - {reader["Marks"]}");
+        }
+
+        reader.Close();
+        conn.Close();
+    }
+}
